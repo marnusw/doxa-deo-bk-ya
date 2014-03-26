@@ -1,0 +1,74 @@
+{
+    "type": "feesdiens",
+    "positions": [
+        {
+            "name": "Persoon 1",
+            "descr": "Beman die infotoonbank 15 minute voor die diens en tot 19:00 na die diens.",
+            "cat": "Infotoonbank"
+        },{
+            "name": "Persoon 2",
+            "descr": "Beman die infotoonbank 15 minute voor die diens en tot 19:00 na die diens.",
+            "cat": "Infotoonbank"
+        },{
+            "name": "Suid deur 1",
+            "descr": "Groet by die Suid deur (aan die pad kant) tot 17:35.",
+            "cat": "Groet"
+        },{
+            "name": "Suid deur 2",
+            "descr": "Groet by die Suid deur (aan die pad kant) tot 17:35.",
+            "cat": "Groet"
+        },{
+            "name": "Noord deur 1",
+            "descr": "Groet by die Noord deur (aan die tent kant) tot 17:35.",
+            "cat": "Groet"
+        },{
+            "name": "Noord deur 2",
+            "descr": "Groet by die Noord deur (aan die tent kant) tot 17:35.",
+            "cat": "Groet"
+        },{
+            "name": "Blok 1",
+            "descr": "Neem kollekte op tydens die diens.",
+            "cat": "Kollekte"
+        },{
+            "name": "Blok 2a",
+            "descr": "Neem kollekte op tydens die diens.",
+            "cat": "Kollekte"
+        },{
+            "name": "Blok 2b",
+            "descr": "Neem kollekte op tydens die diens.",
+            "cat": "Kollekte"
+        },{
+            "name": "Blok 3",
+            "descr": "Neem kollekte op tydens die diens.",
+            "cat": "Kollekte"
+        },{
+            "name": "Persoon 1",
+            "descr": "Verwelkom nuwe mense na die diens by die nuwe mense area.",
+            "cat": "Nuwe mense"
+        },{
+            "name": "Persoon 2",
+            "descr": "Verwelkom nuwe mense na die diens by die nuwe mense area.",
+            "cat": "Nuwe mense"
+        },{
+            "name": "Persoon 3",
+            "descr": "Verwelkom nuwe mense na die diens by die nuwe mense area.",
+            "cat": "Nuwe mense"
+        },{
+            "name": "Blok 1",
+            "descr": "Ontvang mense agter en verwys hulle na waar daar nog oop plekke is.",
+            "cat": "Plekaanwysers"
+        },{
+            "name": "Blok 2a",
+            "descr": "Ontvang mense agter en verwys hulle na waar daar nog oop plekke is.",
+            "cat": "Plekaanwysers"
+        },{
+            "name": "Blok 2b",
+            "descr": "Ontvang mense agter en verwys hulle na waar daar nog oop plekke is.",
+            "cat": "Plekaanwysers"
+        },{
+            "name": "Blok 3",
+            "descr": "Ontvang mense agter en verwys hulle na waar daar nog oop plekke is.",
+            "cat": "Plekaanwysers"
+        }
+    ]
+}

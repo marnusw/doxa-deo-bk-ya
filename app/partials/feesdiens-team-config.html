@@ -1,0 +1,12 @@
+<div class="unitCenter size1of2">
+    <h1 class="indented">Feesdiens span samestelling</h1>
+
+    <div class="line">
+        <section class="line block spaced" ng-repeat="cat in team.categories">
+            <h2>{{cat}}</h2>
+            <ul ng-repeat="pos in team.positions | filter:cat">
+                <li>{{pos.name}}: {{pos.descr}}</li>
+            </ul>
+        </section>
+    </div>
+</div>

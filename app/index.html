@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>BK YA Feesdiens</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="css/app.css"/>
+</head>
+<body ng-app="bkYaFeesdiens">
+    <header class="top line">
+        <img class="unit" style="margin-right:30px" src="/img/doxa-deo-bkya-logo.jpg" alt="Doxa Deo BK YA" width="134" height="75" />
+        <span class="title">BK YA Feesdiens</span>
+        <ul class="menu unit">
+          <li><a href="#/"></a></li>
+        </ul>
+        <ul class="menu unitRight">
+          <li><a href="#/feesdiens/team-config">Team config</a></li>
+        </ul>
+    </header>
+
+  <div ng-view></div>
+
+  <script src="lib/angular/angular.js"></script>
+  <script src="lib/angular/angular-route.js"></script>
+  <script src="lib/angular/angular-resource.js"></script>
+  <script src="lib/bootstrap-ui/buttons/buttons.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/services.js"></script>
+  <script src="js/controllers.js"></script>
+</body>
+</html>

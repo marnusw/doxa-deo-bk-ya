@@ -1,0 +1,268 @@
+
+/*-------------------------------------------------------------------------------------*/
+/* Grids                                                                               */
+/*-------------------------------------------------------------------------------------*/
+
+/* The natural box layout model is needed for fluid units with padding */
+.unit, .unitRight { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.line, .lastUnit { overflow: hidden; *overflow: visible; *zoom: 1; }
+
+.unit { float: left; }
+.unitRight { float: right; }
+.unitCenter { margin: 0 auto; }
+
+.lastUnit {
+    float: none;
+    width: auto;
+    _margin-right: -3px;
+    _position: relative;
+    _left: -3px;
+}
+
+.size1of1 { float: none; }
+.size1of2 { width: 50%; }
+.size1of3 { width: 33.33333%; }
+.size2of3 { width: 66.66666%; }
+.size1of4 { width: 25%; }
+.size3of4 { width: 75%; }
+.size1of5 { width: 20%; }
+.size2of5 { width: 40%; }
+.size3of5 { width: 60%; }
+.size4of5 { width: 80%; }
+.size1of7 { width: 14.28572%; }
+.size3of7 { width: 42.85714%; }
+
+
+/*-------------------------------------------------------------------------------------*/
+/* Spacing                                                                             */
+/*-------------------------------------------------------------------------------------*/
+
+.mtn,.mvn,.man { margin-top:0px }
+.mts,.mvs,.mas { margin-top:5px }
+.mtm,.mvm,.mam { margin-top:10px }
+.mtl,.mvl,.mal { margin-top:20px }
+
+.mrn,.mhn,.man { margin-right:0px }
+.mrs,.mhs,.mas { margin-right:5px }
+.mrm,.mhm,.mam { margin-right:10px }
+.mrl,.mhl,.mal { margin-right:20px }
+
+.mbn,.mvn,.man { margin-bottom:0px }  
+.mbs,.mvs,.mas { margin-bottom:5px }
+.mbm,.mvm,.mam { margin-bottom:10px }
+.mbl,.mvl,.mal { margin-bottom:20px }
+
+.mln,.mhn,.man { margin-left:0px }
+.mls,.mhs,.mas { margin-left:5px }
+.mlm,.mhm,.mam { margin-left:10px }
+.mll,.mhl,.mal { margin-left:20px }
+
+
+/*-------------------------------------------------------------------------------------*/
+/* Table styles                                                                        */
+/*-------------------------------------------------------------------------------------*/
+
+.table .txtC { text-align: center; }
+.table .txtL { text-align: left; }
+.table .txtR { text-align: right; }
+
+.table .btn-pad { padding: 5px; }
+
+
+/*-------------------------------------------------------------------------------------*/
+/* Layout styles                                                                       */
+/*-------------------------------------------------------------------------------------*/
+
+.block {
+    padding: 2px;
+    border: 1px solid black;
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
+}
+
+.block.grey {
+    border: 1px solid #ccc;
+}
+
+.spaced {
+    margin: 10px;
+}
+.indented {
+    margin-left: 10px;
+}
+.line-space {
+    margin: 8px 0;
+}
+
+.nospace {
+    margin: 0;
+}
+
+.media, .media .body { 
+    overflow: hidden; *overflow: visible; *zoom: 1;
+}
+
+.media > img, .media .img {
+    margin-right: 10px;
+    float: left;
+}
+
+.btn {
+  padding: 3px 10px;
+}
+
+.btn-small {
+    padding: 3px 9px;
+}
+
+form .dl-horizontal dt:not(.text) {
+    padding: 5px 0;
+}
+
+textarea { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/*-------------------------------------------------------------------------------------*/
+/* Application specific styles                                                         */
+/*-------------------------------------------------------------------------------------*/
+
+body {
+    padding: 3px;
+}
+
+header .title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.4em;
+    position: absolute;
+    display: block;
+    margin: 20px 0;
+    width: 100%;
+}
+
+header.top {
+    border-bottom: 0.1em solid black;
+    margin-bottom: 1em;
+    padding: 0 0 0.5em;
+}
+
+.top .menu {
+    text-align: right;
+    list-style: none;
+    margin: 57px 0 0 0;
+}
+
+.top .menu > li {
+    display: inline;
+}
+
+.top .menu > li:before {
+    content: "|";
+    padding-right: 0.3em;
+}
+
+.top .menu > li:nth-child(1):before {
+    content: "";
+    padding: 0;
+}
+
+.block h2 {
+    margin-bottom: 3px;
+    padding: 0 5px;
+    background: #ccc;
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
+}
+
+.block h2 > .btn {
+    margin: 5px 0 5px 2px;
+}
+
+.block > .h2-btn-group {
+    position: relative;
+}
+
+.block > .h2-btn-group > .btn-group {
+    position: absolute;
+    right: 5px;
+    top: 5px
+}
+
+label {
+    display: inline-block;
+    font-weight: bold;
+}
+
+a.small-link {
+    text-decoration: underline;
+    font-size: 0.8em;
+}
+
+input.short {
+    width: 80px;
+}
+
+.btn.btn-pad {
+    margin: 7px 0;
+}
+
+
+/*-------------------------------------------------------------------------------------*/
+/* File upload                                                                         */
+/*-------------------------------------------------------------------------------------*/
+
+input[type="file"] {	
+	width: 6.3em \0/IE9;
+}
+
+input[multiple] {
+	width: 6.2em \0/IE9;
+}
+
+.sel-file {
+	padding: 1px 5px;
+	font-size: smaller;
+	color: grey;
+}
+
+.response {
+	padding-top: 30px;
+}
+
+.response > ul {
+	list-style-type: decimal;
+}
+
+.response li, .response .reqh {
+	color: blue;
+	font-size: smaller;
+	padding-bottom: 5px; 
+}
+
+.progress {
+	display: inline-block;
+	width: 100px;	
+	border: 3px groove #CCC;
+}
+
+.progress div {
+	font-size: smaller;
+	background: orange;
+	width: 0;
+}
+
+.drop-box {
+	background: #F8F8F8;
+	border: 5px dashed #DDD;
+	width: 200px;
+	height: 65px; 
+	text-align: center;
+	padding-top: 35px; 
+    font-weight: bold;
+}
+
+.drop-box.dragover {
+	border: 5px dashed blue;
+}
