@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "name": "Marnus",
+        "surname": "Weststrate",
+        "cell": "0727326893",
+        "email": "marnusw@gmail.com",
+        "groups": ["feesdiens"],
+        "roles": ["super-admin"]
+    },{
+        "id": 2,
+        "name": "Nora-ann",
+        "surname": "Harris",
+        "cell": "0824837983",
+        "email": "noraann.harris@gmail.com",
+        "groups": ["feesdiens"]
+    },{
+        "id": 3,
+        "name": "Riaan",
+        "surname": "Hollenbach",
+        "cell": "0827342783",
+        "email": "riaanhollenbach@gmail.com",
+        "groups": ["feesdiens"]
+    },{
+        "id": 4,
+        "name": "Charlotte",
+        "surname": "Hollenbach",
+        "cell": "0732389437",
+        "email": "charlottehollenbach@gmail.com",
+        "groups": ["feesdiens"]
+    },{
+        "id": 5,
+        "name": "JD",
+        "surname": "Ecksteen",
+        "cell": "0732534893",
+        "email": "jdeck@gmail.com",
+        "groups": ["feesdiens"]
+    },{
+        "id": 6,
+        "name": "Anell",
+        "surname": "de Beer",
+        "cell": "0735345493",
+        "email": "anell.debeer@gmail.com",
+        "groups": ["feesdiens"],
+        "roles": ["feesdiens-admin"]
+    }
+]

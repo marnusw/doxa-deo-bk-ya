@@ -1,0 +1,23 @@
+{
+    "id": 1,
+    "type": "feesdiens",
+    "name": "Span 1",
+    "members": [
+        {
+            "position": 3,
+            "user": 1
+        },{
+            "position": 14,
+            "user": 2
+        },{
+            "position": 11,
+            "user": 3
+        },{
+            "position": 8,
+            "user": 4
+        },{
+            "position": 4,
+            "user": 5
+        }
+    ]
+}

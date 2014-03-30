@@ -2,70 +2,87 @@
     "type": "feesdiens",
     "positions": [
         {
+            "id": 1,
             "name": "Persoon 1",
             "descr": "Beman die infotoonbank 15 minute voor die diens en tot 19:00 na die diens.",
             "cat": "Infotoonbank"
         },{
+            "id": 2,
             "name": "Persoon 2",
             "descr": "Beman die infotoonbank 15 minute voor die diens en tot 19:00 na die diens.",
             "cat": "Infotoonbank"
         },{
+            "id": 3,
             "name": "Suid deur 1",
             "descr": "Groet by die Suid deur (aan die pad kant) tot 17:35.",
             "cat": "Groet"
         },{
+            "id": 4,
             "name": "Suid deur 2",
             "descr": "Groet by die Suid deur (aan die pad kant) tot 17:35.",
             "cat": "Groet"
         },{
+            "id": 5,
             "name": "Noord deur 1",
             "descr": "Groet by die Noord deur (aan die tent kant) tot 17:35.",
             "cat": "Groet"
         },{
+            "id": 6,
             "name": "Noord deur 2",
             "descr": "Groet by die Noord deur (aan die tent kant) tot 17:35.",
             "cat": "Groet"
         },{
+            "id": 7,
             "name": "Blok 1",
             "descr": "Neem kollekte op tydens die diens.",
             "cat": "Kollekte"
         },{
+            "id": 8,
             "name": "Blok 2a",
             "descr": "Neem kollekte op tydens die diens.",
             "cat": "Kollekte"
         },{
+            "id": 9,
             "name": "Blok 2b",
             "descr": "Neem kollekte op tydens die diens.",
             "cat": "Kollekte"
         },{
+            "id": 10,
             "name": "Blok 3",
             "descr": "Neem kollekte op tydens die diens.",
             "cat": "Kollekte"
         },{
+            "id": 11,
             "name": "Persoon 1",
             "descr": "Verwelkom nuwe mense na die diens by die nuwe mense area.",
             "cat": "Nuwe mense"
         },{
+            "id": 12,
             "name": "Persoon 2",
             "descr": "Verwelkom nuwe mense na die diens by die nuwe mense area.",
             "cat": "Nuwe mense"
         },{
+            "id": 13,
             "name": "Persoon 3",
             "descr": "Verwelkom nuwe mense na die diens by die nuwe mense area.",
             "cat": "Nuwe mense"
         },{
+            "id": 14,
             "name": "Blok 1",
             "descr": "Ontvang mense agter en verwys hulle na waar daar nog oop plekke is.",
             "cat": "Plekaanwysers"
         },{
+            "id": 15,
             "name": "Blok 2a",
             "descr": "Ontvang mense agter en verwys hulle na waar daar nog oop plekke is.",
             "cat": "Plekaanwysers"
         },{
+            "id": 16,
             "name": "Blok 2b",
             "descr": "Ontvang mense agter en verwys hulle na waar daar nog oop plekke is.",
             "cat": "Plekaanwysers"
         },{
+            "id": 17,
             "name": "Blok 3",
             "descr": "Ontvang mense agter en verwys hulle na waar daar nog oop plekke is.",
             "cat": "Plekaanwysers"

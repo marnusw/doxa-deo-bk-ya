@@ -4,6 +4,12 @@
 
 angular.module('bkYaFeesdiens.services', ['ngResource'])
  
+.factory('Users', ['$resource',
+  function($resource){
+    return $resource('fixtures/users.json');
+  }
+])
+
 .factory('TeamConfig', ['$http', function($http){
     return {
         configFor: function(type) {

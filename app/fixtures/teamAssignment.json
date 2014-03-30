@@ -1,0 +1,35 @@
+[
+    {
+        "date": 1396205641399,
+        "team": 1,
+        "substitutions": [{
+            "position": 3,
+            "oldUser": 1,
+            "newUser": 6
+        }]
+    }, {
+        "date": 1396265641399,
+        "team": 1,
+        "substitutions": []
+    }, {
+        "date": 1396325641399,
+        "team": 1,
+        "substitutions": [{
+            "position": 14,
+            "oldUser": 2,
+            "newUser": 6
+        },{
+            "position": 8,
+            "oldUser": 4,
+            "newUser": 2
+        }]
+    }, {
+        "date": 1396385641399,
+        "team": 1,
+        "substitutions": []
+    }, {
+        "date": 1396445641399,
+        "team": 1,
+        "substitutions": []
+    }
+]
